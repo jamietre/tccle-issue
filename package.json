@@ -1,0 +1,19 @@
+{
+  "name": "tccle-issue",
+  "version": "1.0.0",
+  "description": "demonstrate TCC/LE not short circuiting npm scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit1 && exit0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamietre/tccle-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamietre/tccle-issue/issues"
+  },
+  "homepage": "https://github.com/jamietre/tccle-issue#readme"
+}
